@@ -1,0 +1,26 @@
+{
+  "name": "parallax-image",
+  "version": "1.0.1",
+  "description": "",
+  "main": "parallax-image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creative-one/parallax-image.git"
+  },
+  "keywords": [
+    "parallax",
+    "image",
+    "scroll",
+    "script",
+    "js"
+  ],
+  "author": "CreativeOne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creative-one/parallax-image/issues"
+  },
+  "homepage": "https://github.com/creative-one/parallax-image#readme"
+}
