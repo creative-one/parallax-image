@@ -2,6 +2,9 @@
 by CreativeOne
 
 
+[DEMO](https://creative-one.de/parallax/example.html).
+
+
 ## 1. Add the Styles to the ``<head>`` ##
 ```
 <link href="https://cdn.jsdelivr.net/gh/creative-one/parallax-image@latest/styles.css" rel="stylesheet">
