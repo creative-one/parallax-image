@@ -1,8 +1,8 @@
 function parallax_scroll_handler (image) {
     //const scrollTop = window.scrollTop || window.scrollY
     const imgTag = image.querySelector('img.parallax-image')
-    const height = imgTag.getAttribute('data-height')
-    const speed = parseFloat(imgTag.getAttribute('data-speed'))
+    const height = imgTag.getAttribute('data-height') || '500px'
+    const speed = parseFloat(imgTag.getAttribute('data-speed')) || 0.3
     const rect = image.getBoundingClientRect()
     const imagePos = rect.top
     const winH = window.innerHeight
