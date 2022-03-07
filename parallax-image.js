@@ -22,7 +22,7 @@ function init_parallax () {
         const imageEl = document.createElement('div')
         imageEl.className = 'parallax-image-wrapper'
         imageEl.innerHTML = image.outerHTML
-        imageEl.style.height = image.getAttribute('data-height')
+        imageEl.style.height = image.getAttribute('data-height') || '500px'
         image.replaceWith(imageEl)
         parallax_scroll_handler(imageEl)
         window.addEventListener('scroll', () => parallax_scroll_handler(imageEl))
