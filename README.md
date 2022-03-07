@@ -1,21 +1,21 @@
-#Simple Parallax Script
+# Simple Parallax Script #
 by CreativeOne
 
 
-##1. Add the Styles to the ``<head>``
+## 1. Add the Styles to the ``<head>`` ##
 ```
-<link href="https://cdn.jsdelivr.net/gh/creative-one/parallax-image/styles.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/creative-one/parallax-image@latest/styles.css" rel="stylesheet">
 ```
 
 
-##2. Insert the script at the end of the ``<body>``
+## 2. Insert the script at the end of the ``<body>`` ##
 The script searches for all image tags with the ``.parallax-image`` class. 
 So it has to be at the end of the code,
 ```
-<script src="https://cdn.jsdelivr.net/gh/creative-one/parallax-image/parallax-image.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/creative-one/parallax-image@latest/parallax-image.js"></script>
 ```
 
-##3. Add the ``.parallax-image`` class on your image tag
+## 3. Add the ``.parallax-image`` class on your image tag ##
 ```
 <img
     class="parallax-image"
@@ -24,9 +24,9 @@ So it has to be at the end of the code,
 />
 ```
 
-###To customize the speed and height of the parallax image you can add data-props
+### To customize the speed and height of the parallax image you can add data-props ###
 
-####Speed example
+#### Speed example ####
 
 ```data-speed="0"``` - no parallax effect
 
@@ -34,7 +34,7 @@ So it has to be at the end of the code,
 
 you can set all values between 0 and 1. if you set larger values the image will scroll faster than the viewport.
 
-####Height example:
+#### Height example: ####
 
 ```data-height="100vh"``` - fullscreen image
 
